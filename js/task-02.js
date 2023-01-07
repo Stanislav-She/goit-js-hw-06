@@ -13,7 +13,9 @@ const listRef = document.querySelector("#ingredients");
   const itemRef = document.createElement("li");
   itemRef.classList.add("item");
   itemRef.textContent = element;
-  listRef.appendChild(itemRef);
+  {
+    listRef.appendChild(itemRef);
+  }
 });
 
 // const listRef = document.querySelector("#ingredients");
