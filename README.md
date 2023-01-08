@@ -1,4 +1,4 @@
-# goit-js-hw-06
+# goit-js-hw-06  DOM and events
 
 Критерії приймання
 Створено репозиторій goit-js-hw-06.
