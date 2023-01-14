@@ -28,3 +28,25 @@ const makeItemLinkRef = images
   .join("");
 
 listRef.insertAdjacentHTML("beforeend", makeItemLinkRef);
+
+// const listRef = document.querySelector(".gallery");
+// // ==> отримуємо посилання на ul з html
+// listRef.style = "list-style: none; display: flex;";
+// // ==> додаємо інлайнові стилі псевдомасив ul
+// const makeItemLinkRef = images
+//   .map((element) => {
+//     // трансформуємо масив images за допомогою метода map
+//     const htmlString = `<li style='margin-right: 25px' class='gallery__item'>
+//   <img style='display: block; box-shadow: 10px 10px 45px 10px #555555;'
+//   class='gallery__img' src=${element.url} alt=${element.alt} width = 300></li>`;
+//     // для створення розмітки лішок використовуємо шаблонні рядки, в яких
+//     // прописуємо інлайнові стилі, класи для лішок та їхніх вкладень img,
+//     // також тут з трансформованого масиву беремо через element src та alt, сказуємо ширину зображень
+//     return htmlString;
+//     // повертаємо кожну лішку
+//   })
+//   .join("");
+// // об'єднуємо отримані елементи в рядок порожнім місцем без символу
+
+// listRef.insertAdjacentHTML("beforeend", makeItemLinkRef);
+// // додаємо в ul лішки одну за одною beforeend
